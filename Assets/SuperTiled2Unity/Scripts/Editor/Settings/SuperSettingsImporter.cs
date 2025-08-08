@@ -7,12 +7,12 @@ using System.Xml.Linq;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Assertions;
-using UnityEditor.Experimental.AssetImporters;
+
 
 namespace SuperTiled2Unity.Editor
 {
     // Note: Our settings is set to be imported first
-    [ScriptedImporter(ImporterConstants.SettingsVersion, ImporterConstants.SettingsExtension, ImporterConstants.SettingsImportOrder)]
+    [UnityEditor.AssetImporters.ScriptedImporter(ImporterConstants.SettingsVersion, ImporterConstants.SettingsExtension, ImporterConstants.SettingsImportOrder)]
     public class SuperSettingsImporter : SuperImporter
     {
         [SerializeField]

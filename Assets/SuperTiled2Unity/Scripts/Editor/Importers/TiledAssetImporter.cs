@@ -6,7 +6,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Linq;
 using UnityEditor;
-using UnityEditor.Experimental.AssetImporters;
+
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -111,7 +111,7 @@ namespace SuperTiled2Unity.Editor
             }
         }
 
-        private void WrapImportContext(AssetImportContext ctx)
+        private void WrapImportContext(UnityEditor.AssetImporters.AssetImportContext ctx)
         {
             var settings = ST2USettings.LoadSettings();
             if (settings == null)
