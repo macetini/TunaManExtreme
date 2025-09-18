@@ -27,10 +27,6 @@ git clone https://github.com/macetini/TunaManExtreme.git
 ```
 Open the folder in Unity and run the game!
 
-## 📸 Screenshots
-
-*(Add more screenshots or GIFs here if you like!)*
-
 ## 🏆 Credits
 
 Created by [macetini](https://github.com/macetini) during the 2020 game jam.
